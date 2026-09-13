@@ -1,3 +1,7 @@
+> **Where the system lives:** FAS is built on Vellum, a visual pipeline platform, so the artifact is the architecture rather than a repository of source files. This case study documents that design: 27 nodes, 4 LLM stages, 73 validation checks across 14 governed tables, and fail-closed behavior when validation fails.
+>
+> **The code that tests it is public.** [EVS](https://github.com/maxwellwilber-cpu/evs) is a 43-test Python framework that validates this pipeline's output — it caught 12 of 12 planted errors plus 3 real issues found independently.
+
 # I Built an AI Financial Analyst for Small Businesses. Here's Why 73 Validation Checks Mattered More Than the AI.
 
 *How a non-engineer designed a multi-stage AI pipeline that produces CFO-grade analysis for business owners who can't afford a CFO.*
