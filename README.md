@@ -96,6 +96,6 @@ Anyone can call an LLM API and get a plausible-sounding financial analysis. The 
 
 ---
 
-*Maxwell Wilber is an independent business and AI consultant based in Los Angeles. He designs AI systems for small business financial analysis and is seeking applied AI consulting and strategy roles.*
+Maxwell Wilber builds AI automations and agents for businesses. He is currently an AI implementation specialist at a Seattle AI startup, and previously built AI systems for small business owners through an independent consulting practice.
 
-*Contact: maxwellwilber@gmail.com | (310) 498-6233*
+[LinkedIn](https://linkedin.com/in/maxwellwilber) · [GitHub](https://github.com/maxwellwilber-cpu)
