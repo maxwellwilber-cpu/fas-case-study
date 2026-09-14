@@ -4,11 +4,11 @@
 
 # I Built an AI Financial Analyst for Small Businesses. Here's Why 73 Validation Checks Mattered More Than the AI.
 
-*How a non-engineer designed a multi-stage AI pipeline that produces CFO-grade analysis for business owners who can't afford a CFO.*
+*How I designed a multi-stage AI pipeline that produces CFO-grade analysis for business owners who can't afford a CFO.*
 
 ---
 
-> **System:** 27-node AI pipeline on Vellum · 73 validation checks across 14 governed tables · 96.2/100 quality score · Tested on real client data ($1.41M revenue)
+> **System:** 27-node AI pipeline on Vellum · 73 validation checks across 14 governed tables · fail-closed when validation fails · tested on real client data ($1.41M revenue)
 >
 > **Related:** [External Validation Script (EVS)](https://github.com/maxwellwilber-cpu/evs), 43 pytest tests covering the validation framework itself | [AI Implementations Portfolio](https://github.com/maxwellwilber-cpu/ai-implementations-portfolio), 19 documented implementations
 
@@ -62,7 +62,7 @@ Two failures shaped this system more than any success.
 
 ---
 
-## Real Results: Beach City Baseball Academy
+## Real Results: a youth baseball academy
 
 The system proved itself on 24 months of real QuickBooks data from a service business running approximately $1.41M in trailing twelve-month revenue.
 
@@ -88,7 +88,7 @@ Result: 100% detection rate on all 12 planted errors, plus 2 additional data qua
 
 ## What This Proves
 
-I'm not an engineer. I have a business degree from Loyola Marymount University. I built this system because I understood the problem from the business side and was willing to learn enough about AI systems to design a solution that's actually reliable.
+I have a business degree from Loyola Marymount University and taught myself the technical side. I built this system because I understood the problem from the business side and was willing to learn enough about AI systems to design a solution that's actually reliable.
 
 The hardest part of building AI systems isn't the AI. It's the validation architecture that catches hallucinations, the pipeline design that keeps each component testable, the traceability chain that lets you follow any recommendation back to the raw data that supports it, and the fail-closed behavior that ensures the system never produces output it can't verify.
 
